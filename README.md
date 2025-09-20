@@ -57,8 +57,8 @@ A beautiful, modern, and responsive web application built for promoting eco-tour
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/jharkhand-tourism.git
-cd jharkhand-tourism
+git clone https://github.com/harsh-git1610/TourismTraction_Frontend
+cd TourismTraction_Frontend
 ```
 
 2. **Install dependencies**
