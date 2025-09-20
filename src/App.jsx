@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import BackToHome from './components/BackToHome'
 import Home from './pages/Home'
 import Destinations from './pages/Destinations'
 import DestinationDetail from './pages/DestinationDetail'
@@ -30,6 +31,7 @@ function App() {
           </Routes>
         </AnimatePresence>
         <Footer />
+        <BackToHome />
       </div>
     </Router>
   )
