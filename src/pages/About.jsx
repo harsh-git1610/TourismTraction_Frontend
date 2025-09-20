@@ -104,7 +104,7 @@ const About = () => {
     {
       phase: 'Phase 3',
       title: 'Community Partnerships',
-      description: 'Establishing authentic partnerships with tribal communities for cultural experiences.',
+      description: 'Establishing authentic partnerships with tribal communities for cultural experiences. xyzzzzzz',
       status: 'Planned'
     },
     {
