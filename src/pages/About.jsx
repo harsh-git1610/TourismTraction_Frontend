@@ -38,32 +38,46 @@ const About = () => {
 
   const team = [
     {
-      name: 'Rajesh Kumar',
+      name: 'Yash',
       role: 'Project Lead & Full-Stack Developer',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+      image: '',
       bio: 'Computer Science student passionate about sustainable technology and digital innovation for social impact.',
       specialties: ['React Development', 'UI/UX Design', 'Project Management']
     },
     {
-      name: 'Priya Sharma',
+      name: 'Shikha',
       role: 'Research & Content Strategist',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+      image: '',
       bio: 'Tourism Management student with deep interest in Jharkhand\'s cultural heritage and tribal communities.',
       specialties: ['Content Research', 'Cultural Studies', 'Tourism Planning']
     },
     {
-      name: 'Arjun Singh',
+      name: 'Vigya',
       role: 'AI/ML Developer',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+      image: '',
       bio: 'Data Science enthusiast working on intelligent recommendation systems and personalization algorithms.',
       specialties: ['Machine Learning', 'Data Analysis', 'Algorithm Design']
     },
     {
-      name: 'Maya Devi',
+      name: 'Aryan',
       role: 'Environmental Science Advisor',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+      image: '',
       bio: 'Environmental Science student focused on sustainable tourism practices and conservation awareness.',
       specialties: ['Sustainability Research', 'Eco-tourism', 'Environmental Impact']
+    },
+    {
+      name: 'Mayank',
+      role: 'Frontend Developer',
+      image: '',
+      bio: 'Frontend developer with expertise in modern web technologies and creating responsive user interfaces.',
+      specialties: ['React', 'JavaScript', 'UI/UX Design']
+    },
+    {
+      name: 'Hardik',
+      role: 'Backend Developer',
+      image: '',
+      bio: 'Backend specialist focused on building scalable and efficient server-side applications.',
+      specialties: ['Node.js', 'Database Design', 'API Development']
     }
   ]
 
@@ -241,7 +255,7 @@ const About = () => {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {team.map((member, index) => (
                 <motion.div
                   key={index}
